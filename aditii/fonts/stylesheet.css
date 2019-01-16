@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans.eot');
+    src: url('OpenSans.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans.woff') format('woff'),
+        url('OpenSans.ttf') format('truetype'),
+        url('OpenSans.svg#OpenSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Light.eot');
+    src: url('OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Light.woff') format('woff'),
+        url('OpenSans-Light.ttf') format('truetype'),
+        url('OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-BoldItalic.eot');
+    src: url('OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-BoldItalic.woff') format('woff'),
+        url('OpenSans-BoldItalic.ttf') format('truetype'),
+        url('OpenSans-BoldItalic.svg#OpenSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.eot');
+    src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Bold.woff') format('woff'),
+        url('OpenSans-Bold.ttf') format('truetype'),
+        url('OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Semibold.eot');
+    src: url('OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Semibold.woff') format('woff'),
+        url('OpenSans-Semibold.ttf') format('truetype'),
+        url('OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-SemiboldItalic.eot');
+    src: url('OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-SemiboldItalic.woff') format('woff'),
+        url('OpenSans-SemiboldItalic.ttf') format('truetype'),
+        url('OpenSans-SemiboldItalic.svg#OpenSans-SemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-ExtraboldItalic.eot');
+    src: url('OpenSans-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-ExtraboldItalic.woff') format('woff'),
+        url('OpenSans-ExtraboldItalic.ttf') format('truetype'),
+        url('OpenSans-ExtraboldItalic.svg#OpenSans-ExtraboldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Italic.eot');
+    src: url('OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Italic.woff') format('woff'),
+        url('OpenSans-Italic.ttf') format('truetype'),
+        url('OpenSans-Italic.svg#OpenSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSansLight-Italic.eot');
+    src: url('OpenSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('OpenSansLight-Italic.woff') format('woff'),
+        url('OpenSansLight-Italic.ttf') format('truetype'),
+        url('OpenSansLight-Italic.svg#OpenSansLight-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Extrabold.eot');
+    src: url('OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Extrabold.woff') format('woff'),
+        url('OpenSans-Extrabold.ttf') format('truetype'),
+        url('OpenSans-Extrabold.svg#OpenSans-Extrabold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lobster 1.4';
+    src: url('Lobster14.eot');
+    src: url('Lobster14.eot?#iefix') format('embedded-opentype'),
+        url('Lobster14.woff') format('woff'),
+        url('Lobster14.ttf') format('truetype'),
+        url('Lobster14.svg#Lobster1.4') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('BebasNeueBook.eot');
+    src: url('BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeueBook.woff') format('woff'),
+        url('BebasNeueBook.ttf') format('truetype'),
+        url('BebasNeueBook.svg#BebasNeueBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Thin.eot');
+    src: url('BebasNeue-Thin.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeue-Thin.woff') format('woff'),
+        url('BebasNeue-Thin.ttf') format('truetype'),
+        url('BebasNeue-Thin.svg#BebasNeue-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeueRegular.eot');
+    src: url('BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeueRegular.woff') format('woff'),
+        url('BebasNeueRegular.ttf') format('truetype'),
+        url('BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeueLight.eot');
+    src: url('BebasNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeueLight.woff') format('woff'),
+        url('BebasNeueLight.ttf') format('truetype'),
+        url('BebasNeueLight.svg#BebasNeueLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeueBold.eot');
+    src: url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeueBold.woff') format('woff'),
+        url('BebasNeueBold.ttf') format('truetype'),
+        url('BebasNeueBold.svg#BebasNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
