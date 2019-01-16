@@ -3,8 +3,386 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/icomoonTwo/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8ecQ72e-yuP8zx1vazdN90dVFr8bs2TI"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
+<header>
+    <div class="container">
+        <div class="header clear">
 
+            <div class="menuSocial">
+                <div class="symbol" style="background-image: url(img/png/dsgn.png)"></div>
+                <span>ASSOCIATES <br>STUDIO <br>DESIGN</span>
+                <ul>
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-linkedin2"></span></a></li>
+                    <li><a href="#"><span class="icon-google"></span></a></li>
+                </ul>
+            </div>
+            <div class="menuRight">
+                <div id="sweeties" class="menu">
+                    <div class="title icon-menu">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#projectsMenu">PROJECTS</a></li>
+                            <li><a href="#studio">STUDIO</a></li>
+                            <li><a href="#news">NEWS</a></li>
+                            <li><a href="#contactsFoot">CONTACT</a></li>
+                            <li>
+                                <div class="end" style="background-image: url(img/png/btn.png)"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="address">
+                    <span>90802 California<br>Long beach<br>PO Box 68789<br>300 East Ocean<br>Boulevard</span>
+                </div>
+                <div class="contacts">
+                    <a href="#">+64 9 345 6758</a><br>
+                    <a href="#">info@dsgn-studio.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <div class="container">
+        <div class="projectsMenu" id="projectsMenu">
+            <div class="projectsMenuLeft">
+                <div class="projects">
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">House</a></li>
+                        <li><a href="#">Commercial</a></li>
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">Studio Lab</a></li>
+                    </ul>
+                    <h2>projects</h2>
+                </div>
+                <div class="fondue">
+                    <h3>FONDUE</h3>
+                    <ul>
+                        <li><span class="type">Project Assistant: </span>
+                            <span class="description">Francesco Dompieri</span></li>
+                        <li><span class="type">Material: </span>
+                            <span class="description">Glass and Metal</span></li>
+                        <li><span class="type">Typology: </span>
+                            <span class="description">Suspension lamp</span></li>
+                        <li><span class="type">Client: </span>
+                            <span class="description">David Design</span></li>
+                        <li><span class="type">Year: </span>
+                            <span class="description">2014</span></li>
+                    </ul>
+                    <div style="background-image: url(img/png/arrow-icon.png)">
+                        <a href="#" class="view">view project</a>
+                    </div>
+                </div>
+                <div class="louis">
+                    <h3>louis</h3>
+                    <ul>
+                        <li><span class="type">designer: </span>
+                            <span class="description">philippe starck </span></li>
+                        <li><span class="type">Typology: </span>
+                            <span class="description">chairs</span></li>
+                        <li><span class="type"> Client: </span>
+                            <span class="description">vitra</span></li>
+                        <li><span class="type">Year: </span>
+                            <span class="description">2012</span></li>
+                    </ul>
+                    <div style="background-image: url(img/png/arrow-icon.png)">
+                        <a href="#" class="view">view project</a>
+                    </div>
+                </div>
+                <div class="three">
+                    <div class="threeLeft">
+                        <h3>l395-396 P22</h3>
+                        <ul>
+                            <li><span class="type">designer: </span>
+                                <span class="description">Patrick Norguet </span></li>
+                            <li><span class="type">Typology: </span>
+                                <span class="description">ARMchairs</span></li>
+                            <li><span class="type"> Client: </span>
+                                <span class="description">Cassina</span></li>
+                            <li><span class="type">Year: </span>
+                                <span class="description">2013</span></li>
+                        </ul>
+                    </div>
+                    <div class="threeRight">
+                        <div style="background-image: url(img/png/arrow-icon.png)">
+                            <a href="#" class="view">view project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sesann">
+                    <div class="sesannLeft">
+                        <h3>sesann</h3>
+                        <ul>
+                            <li><span class="type">designer: </span>
+                                <span class="description">Gianfranco Frattini </span></li>
+                            <li><span class="type">Typology: </span>
+                                <span class="description">armchairs</span></li>
+                            <li><span class="type"> Client: </span>
+                                <span class="description">Cassina</span></li>
+                            <li><span class="type">Year: </span>
+                                <span class="description">1970</span></li>
+                        </ul>
+                    </div>
+                    <div class="sesannView" style="background-image: url(img/png/arrow-icon.png)">
+                        <a href="#" class="view">view project</a>
+                    </div>
+                </div>
+                <div class="alessi">
+                    <h3>alessi</h3>
+                    <ul>
+                        <li><span class="type">designer: </span>
+                            <span class="description">Piero Lissoni</span></li>
+                        <li><span class="type"> Client: </span>
+                            <span class="description">Alessi</span></li>
+                        <li><span class="type">Year: </span>
+                            <span class="description">2013</span></li>
+                    </ul>
+                    <div style="background-image: url(img/png/arrow-icon.png)">
+                        <a href="#" class="view">view project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projectsMenuRight">
+                <div class="potter">
+                    <h3>potter</h3>
+                    <div class="for"><span class="type">for </span><span class="description">stelton</span>
+                    </div>
+                    <div class="potterText"><span>Potter focuses on the <br>
+                        functionality and process <br>
+                        of preparing tea. a big sieve <br>
+                        allows the flavor of to evenly <br>
+                        brewed.</span>
+                    </div>
+                    <div class="potterView" style="background-image: url(img/png/arrow-icon.png)">
+                        <a href="#" class="view">view project</a>
+                    </div>
+                </div>
+                <div class="tabano">
+                    <div class="tabanoLeft">
+                        <h3>Tabano</h3>
+                        <ul>
+                            <li><span class="type">designer: </span>
+                                <span class="description">PATRICIA URQUIOLA </span></li>
+                            <li><span class="type">Typology: </span>
+                                <span class="description">Armchairs</span></li>
+                            <li><span class="type"> Client: </span>
+                                <span class="description">B&B ITALIA</span></li>
+                            <li><span class="type">Year: </span>
+                                <span class="description">2014</span></li>
+                        </ul>
+                    </div>
+                    <div class="tabanoRight">
+                        <div style="background-image: url(img/png/arrow-icon.png)">
+                            <a href="#" class="view">view project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fiji">
+                    <h3>fiji</h3>
+                    <ul>
+                        <li><span class="type">designer: </span>
+                            <span class="description">Cuno Frommherz</span></li>
+                        <li><span class="type">Typology: </span>
+                            <span class="description">armchairs</span></li>
+                        <li><span class="type">Year: </span>
+                            <span class="description">2012</span></li>
+                    </ul>
+                    <div style="background-image: url(img/png/arrow-icon.png)">
+                        <a href="#" class="view">view project</a>
+                    </div>
+                </div>
+                <div class="timeline">
+                    <h4>timeline</h4>
+                    <ul>
+                        <li><a href="#">2014</a></li>
+                        <li><a href="#">2013</a></li>
+                        <li><a href="#">2012</a></li>
+                        <li><a href="#">2011</a></li>
+                        <li><a href="#">2010</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="studio">
+            <div class="studio">
+                <div class="studioMenu">
+                    <h2>studio</h2>
+                </div>
+                <div class="studioText">
+                    <div class="boldText">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisc- <br>
+                            ing elit. Phasellus sollicitudin eros sit amet nulla <br>
+                            rhoncus dictum. </p>
+                        <p>Nam rhoncus fringilla dolor vitae vulputate. Nullam <br>
+                            quis eros lorem. Integer cursus erat a orci congue <br>
+                            feugiat. Cras rhoncus mollis libero, id aliquet purus <br>
+                            varius sed.</p>
+                    </div>
+                    <div class="normalText">
+                        <p>Aenean ullamcorper porta nisl, ac lobortis elit com- <br>
+                            modo placerat.</p>
+                        <p>Vivamus eget laoreet enim. Sed nunc dui, egestas <br>
+                            vel diam convallis, faucibus iaculis sapien. Sed ut <br>
+                            vulputate nisi. </p>
+                        <p>Proin tempor risus tellus. Maecenas sit amet <br>
+                            fringilla urna, vel iaculis velit. Sed ac felis et sem <br>
+                            mollis dictum sed id orci.</p>
+                    </div>
+                </div>
+                <div class="awards">
+                    <div class="awardsImg" style="background-image: url(img/png/awards.png)"></div>
+                    <div class="awardsText">
+                        <span>awards</span>
+                        <hr>
+                    </div>
+                    <div class="awardsType">
+                        <div>
+                        <span>Aenean ullamcorper porta <br>nisl,<br>
+                            ac lobortis elit <br>
+                            commodo placerat. <br>
+                            Vivamus </span>
+                        </div>
+                        <div>
+                        <span>Aenean ullamcorper porta <br>nisl,<br>
+                            ac lobortis elit <br>
+                            commodo placerat. <br>
+                            Vivamus </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="staff">
+                <div class="staffText">
+                    <span>staff</span>
+                    <p>Sit amet laoreet sapien dictum. Sed eget eros <br>
+                        augue. Pellentesque tempor mi sit amet nisi tincid-<br>
+                        unt tincidunt. Fusce malesuada lectus sed mauris <br>
+                        pharetra faucibus. </p>
+                    <p>Aenean diam tortor, hendrerit ac pulvinar vel, con-<br>
+                        dimentum ac velit. Phasellus eu odio elit. Aenean <br>
+                        volutpat mi quam, ut ornare augue tempus ut. </p>
+                    <p>Morbi sagittis diam mauris, in adipiscing nulla <br>
+                        convallis ut.</p>
+                </div>
+                <div class="staffMenu">
+                    <div>
+                        <div class="staffImg" style="background-image: url(img/png/staffOne.png)"></div>
+                        <div class="staffName">philippe starck</div>
+                        <span class="designer">designer</span>
+                        <div class="cvMenu">
+                            <a href="#" class="cv">CV</a>
+                            <span class="cvArrow" style="background-image: url(img/png/arrow-icon3.png)"></span>
+                            <ul class="cvSocial">
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon-linkedin2"></span></a></li>
+                                <li><a href="#"><span class="icon-google"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="staffImg" style="background-image: url(img/png/staffTwo.png)"></div>
+                        <div class="staffName">mario bellini</div>
+                        <span class="designer">designer</span>
+                        <div class="cvMenu">
+                            <a href="#" class="cv">CV</a>
+                            <span class="cvArrow" style="background-image: url(img/png/arrow-icon3.png)"></span>
+                            <ul class="cvSocial">
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon-linkedin2"></span></a></li>
+                                <li><a href="#"><span class="icon-google"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="staffImg" style="background-image: url(img/png/staffThree.png)"></div>
+                        <div class="staffName">patricia urquiola</div>
+                        <span class="designer">designer</span>
+                        <div class="cvMenu">
+                            <a href="#" class="cv">CV</a>
+                            <span class="cvArrow" style="background-image: url(img/png/arrow-icon3.png)"></span>
+                            <ul class="cvSocial">
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon-linkedin2"></span></a></li>
+                                <li><a href="#"><span class="icon-google"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news" id="news">
+            <div class="newsMenu">
+                <h2>news</h2>
+            </div>
+            <div class="newsText">
+                <div class="newsOne">
+                    <div class="headline">Mauris et dui sed justo placerat tristique.
+                    </div>
+                    <span class="newsData">11.07.2014</span>
+                    <div class="newsImgOne"></div>
+                    <div class="newsTextOne"><p>Maecenas imperdiet nisi lorem, sed fermentum tortor pretium
+                        eget. Sed mollis lacus quis nunc cursus cursus. Quisque et magna
+                        sit amet sapien fermentum scelerisque eu id massa. Mauris
+                        ornare massa vel mauris tempus, vitae tempus urna tincidunt.</p>
+                    </div>
+                    <div class="more"><a href="#">read more</a>
+                    </div>
+                </div>
+                <div class="newsTwo">
+                    <div class="headline">Proin vehicula nibh massa</div>
+                    <span class="newsData">11.07.2014</span>
+                    <div class="newsImgTwo"></div>
+                    <div class="newsTextOne"><p>Praesent non mauris nec orci scelerisque faucibus. Nulla ac
+                        varius est. Aenean auctor nisl elit, nec sollicitudin lectus iaculis
+                        sed. Maecenas aliquam ligula vitae pharetra scelerisque.</p>
+                    </div>
+                    <div class="more"><a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <footer>
+        <div id="map" class="map"></div>
+        <div class="footerRight">
+            <div class="contactsFoot" id="contactsFoot">
+                <span>90802 California<br>Long beach<br>PO Box 68789<br>300 East Ocean<br>Boulevard</span>
+                <div>
+                    <a href="#">+64 9 345 6758</a><br>
+                    <a href="#">info@dsgn-studio.com</a>
+                </div>
+                <p>© 2014 DSGN. All rights reserved - Designed by theuncreativelab.com</p>
+            </div>
+            <div class="menuSocialFoot">
+                <div class="symbol" style="background-image: url(img/png/dsgn.png)"></div>
+                <span>ASSOCIATES <br>STUDIO <br>DESIGN</span>
+                <ul>
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-linkedin2"></span></a></li>
+                    <li><a href="#"><span class="icon-google"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
